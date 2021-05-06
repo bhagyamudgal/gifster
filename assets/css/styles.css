@@ -71,8 +71,7 @@ body {
 
 @media only screen and (max-width: 990px) {
   #searchTerm {
-    display: inline;
-    width: 60px;
+    display: inline-block;
     text-align: center;
   }
 }
