@@ -42,10 +42,6 @@ if (localStorage.getItem("searchValueHome") !== null) {
 let searchBtn = document.getElementById("searchBtn");
 searchBtn.addEventListener("click", function (e) {
   e.preventDefault();
-
-  document
-    .getElementById("footer")
-    .setAttribute("class", "d-none footer-basic");
   document.getElementById("noResultsDiv").style.display = "none";
   document.getElementById("spinnerDiv").style.display = "flex";
   document.getElementById("spinner").style.display = "block";
@@ -106,22 +102,16 @@ function fetchingSearch(limit, query, offset = 0, bool, timeout = 2000) {
           } else {
             displayLoadmoreSearch();
           }
-          document
-            .getElementById("footer")
-            .setAttribute("class", "footer-basic");
+          
           // console.log(query);
         } else if (query == "") {
           let searchDiv = document.getElementById("searchDiv");
           searchDiv.innerHTML += `<div style="display:block; width:80%; margin: 180px auto"><center><h3>Search Field is empty. Search Something to get results.</h3></center></div>`;
-          document
-            .getElementById("footer")
-            .setAttribute("class", "footer-basic");
+         
         } else {
           let searchDiv = document.getElementById("searchDiv");
           searchDiv.innerHTML += `<div style="display:block; width:80%; margin: 180px auto"><center><h3>No results matching keyword. Search another keyword.</h3></center></div>`;
-          document
-            .getElementById("footer")
-            .setAttribute("class", "footer-basic");
+         
         }
       });
 

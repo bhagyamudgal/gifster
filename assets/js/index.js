@@ -49,7 +49,7 @@ let fetching = (limit, offset = 0, timeout = 2000) => {
         });
 
         displayLoadmore();
-        document.getElementById("footer").setAttribute("class", "footer-basic");
+        document.getElementById("footer").setAttribute("class", "footer-basic d-flex flex-column justify-content-xl-center align-items-xl-center");
       });
 
     document.getElementById("spinnerDiv").style.display = "none";
