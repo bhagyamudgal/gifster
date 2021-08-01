@@ -8,7 +8,7 @@ URL - https://www.gifster.ml/
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Javascript and Bootstrap.
+**Client:** HTML | CSS | JavaScript | Bootstrap.
 
   
 ## Screenshot
