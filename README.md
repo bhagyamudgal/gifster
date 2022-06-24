@@ -3,7 +3,7 @@
 
 Gifster is a web application in which users can see trending GIFs and search for GIFs using keywords of their choice. Users can share and download GIFs as well.
 
-URL - [https://www.gifster.ml/](https://bm-gifster.netlify.app/)
+URL - https://bm-gifster.netlify.app/
 
 
 ## Tech Stack
